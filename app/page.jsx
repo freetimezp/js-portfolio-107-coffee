@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import Hero from '@/components/Hero';
 import Explore from '@/components/Explore';
+import About from '@/components/About';
 
 const Home = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const Home = () => {
     <div className='h-full overflow-x-hidden'>
       <Hero />
       <Explore />
+      <About />
       <div className='h-[4000px]'></div>
     </div>
   );
